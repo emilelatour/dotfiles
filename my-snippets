@@ -98,17 +98,17 @@ snippet shinyapp
 	
 	shinyApp(ui, server)
 	
+snippet bb
+	#### ${1:header} -------------------------------- 
+	${0}
+
+snippet ll
+	## ${1:sub-header} ---------------- 
+	${0}
+
 snippet gg
 	ggplot(${1:data}, aes(${2:aes})) + 
 		geom_${3:geom}()
-
-
-snippet bb
-	`r paste("####", "${1:header}", "-------------------------------- \n")`
-
-snippet ll
-	`r paste("##", "${1:sub-header}", "--------------- \n")`
 	
 snippet aa
 	${1:dataset} <- ${1:dataset} %>% ${0}
-
