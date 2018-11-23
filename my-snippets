@@ -112,3 +112,13 @@ snippet gg
 	
 snippet aa
 	${1:dataset} <- ${1:dataset} %>% ${0}
+
+snippet pp
+	pacman::p_load(
+	  tidyverse, 
+	  fs, 
+	  glue, 
+	  here, 
+	  janitor, 
+	  naniar
+	)${0}
