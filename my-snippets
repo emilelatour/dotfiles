@@ -122,3 +122,6 @@ snippet pp
 	  janitor, 
 	  naniar
 	)${0}
+		
+snippet hh
+	`r paste0('here::here("', paste0(strsplit(gsub('"', "", gsub("\\\\", "/", readClipboard())), "/")[[1]], collapse = '", \n"'), '")', sep = "")`
