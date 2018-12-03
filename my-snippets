@@ -116,12 +116,14 @@ snippet aa
 snippet pp
 	pacman::p_load(
 	  tidyverse, 
+	  broom, 
 	  fs, 
 	  glue, 
 	  here, 
 	  janitor, 
 	  mice, 
-	  naniar
+	  naniar, 
+	  readxl
 	)${0}
 		
 snippet hh
