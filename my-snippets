@@ -115,15 +115,16 @@ snippet aa
 
 snippet pp
 	pacman::p_load(
-	  tidyverse, 
-	  broom, 
-	  fs, 
-	  glue, 
-	  here, 
-	  janitor, 
-	  mice, 
-	  naniar, 
-	  readxl
+		tidyverse,     # packages ggplot2, dplyr, tidyr, readr, purrr, tibble, 
+		               # stringr, and forcats
+		broom,         # functions tidy(), glance(), augment()
+		fs,            # Cross-platform interface to file system operations
+		glue,          # Glue strings to data in R
+		here,          # Constructs paths to your project's files
+		janitor,       # for working with dirty data 
+		mice,          # Multiple imputation using Fully Conditional Specification
+		naniar,        # structures, summaries, and visualisations for missing data 
+		readxl         # read in excel files
 	)${0}
 		
 snippet hh
