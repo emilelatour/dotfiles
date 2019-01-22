@@ -122,9 +122,11 @@ snippet pp
 		glue,          # Glue strings to data in R
 		here,          # Constructs paths to your project's files
 		janitor,       # for working with dirty data 
+		lubridate,     # Functions to work with date-times and time-spans 
 		mice,          # Multiple imputation using Fully Conditional Specification
 		naniar,        # structures, summaries, and visualisations for missing data 
-		readxl         # read in excel files
+		readxl,        # read in excel files
+		install = FALSE
 	)${0}
 		
 snippet hh
