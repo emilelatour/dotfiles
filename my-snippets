@@ -130,11 +130,11 @@ snippet pp
 	)${0}
 		
 snippet hh
-	`r paste0('here::here("', paste0(strsplit(gsub('"', "", gsub("\\\\", "/", readClipboard())), "/")[[1]], collapse = '", \n"'), '")', sep = "")`
+	`r paste0('here::here("', paste0(strsplit(gsub('"', "", gsub("\\\\", "/", clipr::read_clip())), "/")[[1]], collapse = '", \n"'), '")', sep = "")`
 
 snippet ff
 	#### Load fonts --------------------------------
 	# extrafont::fonts()  # Vector of font family names
 	# extrafont::fonttable()  # Show entire table
 	# extrafont::font_import()  # imports fonts installed on the system
-	extrafont::loadfonts(device = "win", quiet = TRUE)${0}
+	extrafont::loadfonts(device = "pdf", quiet = TRUE)${0}
