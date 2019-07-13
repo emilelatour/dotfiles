@@ -138,3 +138,9 @@ snippet ff
 	# extrafont::fonttable()  # Show entire table
 	# extrafont::font_import()  # imports fonts installed on the system
 	extrafont::loadfonts(device = "pdf", quiet = TRUE)${0}
+
+snippet lala
+	#### Other packages ----------------------------- 
+	library(lamisc)   # devtools::install_github("emilelatour/lamisc) 
+	library(laviz)    # devtools::install_github("emilelatour/laviz) 
+	library(latable)  # devtools::install_github("emilelatour/latable)
